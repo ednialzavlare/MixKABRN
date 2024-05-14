@@ -29,17 +29,22 @@
 
 This is a draft for making the MixKABRN Neural Network, and first adapt it for training on text, and later adjust for other modalities.
 
-Please be patient if you do not like the quality, I'll try to incorporate feedback and will be accepting suggestions, collaborations and I will try to engage in conversations.
+Please be patient if you do not like the quality, I'll try to incorporate feedback and will be accepting suggestions, collaborations and I will try to engage in conversation.
 
 Why MixKABRN?
 
 The general idea here is to use some of the papers and their respective strengths to propose and share a combination of them.
 
-The papers are:
+The main papers are:
 - Kolmogorov-Arnold Networks
 - BitNet
 - Retentive Networks
 - Mixture of Experts
+
+And some other are:
+- Textbooks are all you need
+- MATH
+- M2D2
 
 In an attempt at making a local, but highly functional and adaptable model that even non AI-specific devices could handle. I would like to do this to be able to reuse old hardware and allow people without access to the internet to enjoy some of the benefits of LLMs, perhaps even train them locally to translate and share information, without depending on the internet nor very complex infrastructure.
 
@@ -194,3 +199,5 @@ Eprint = {arXiv:2310.11453},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+
+```
