@@ -23,7 +23,7 @@
 
 ## To Do ##
 
-- Mostly everything and fix what doesn't work
+- Mostly everything and fix what doesn't work (still very fresh)
 
 ## Description ##
 
