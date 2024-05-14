@@ -2,13 +2,36 @@
 
 ## Table of Content ##
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Table of Contents](#table-of-contents)
+3. [Description](#description)
+4. [Why MixKABRN?](#why-mixkabrn)
+5. [Project Structure](#project-structure)
+6. [Proposed Datasets](#proposed-datasets)
+7. [Core Components](#core-components)
+   - [Mixture of Experts](#mixture-of-experts)
+   - [Kolmogorov-Arnold Networks (KANs)](#kolmogorov-arnold-networks-kans)
+   - [BitNets](#bitnets)
+   - [Retentive Networks](#retentive-networks)
+8. [Installation](#installation)
+9. [Usage](#usage)
+10. [Contributing](#contributing)
+11. [License](#license)
+12. [References](#references)
+13. [More References](#more-references)
+
+
 ## To Do ##
 
+- Mostly everything
 
 ## Description ##
 
 This is a draft for making the MixKABRN Neural Network, and first adapt it for training on text, and later adjust for other modalities.
-I haven't picked up coding that much again after some time, so please be patient if you do not like the quality, I'll try to incorporate feedback and will be accepting suggestions, collaborations and I will try to engage in conversations.
+
+Please be patient if you do not like the quality, I'll try to incorporate feedback and will be accepting suggestions, collaborations and I will try to engage in conversations.
 
 Why MixKABRN?
 
@@ -35,7 +58,7 @@ The project structure is roughly as follows, and I will try to comment anything 
 - OpenQA
 - Any suggestion, but trying to follow Phi or Phi-2 or similar, perhaps introduce more ideas.
 
-- This might not be worth it but, translating the datasets or extrapolating translated datasets could help with reinforcing ideas already seen, but encoded in different ways to take advantage of the relations from the KAN parts.
+- This might not be worth it but, translating the datasets or extrapolating translated datasets could help with reinforcing ideas already seen, but encoded in different ways to take advantage of the relations from the KAN parts.(maybe the same could be said for new info, but by relating it to previous ones, it might be easier to learn?)
 
 ### Mixture of Experts ###
 
@@ -74,13 +97,32 @@ The project structure is roughly as follows, and I will try to comment anything 
 
 ## Installation ##
 
+### NON working example: ###
+
+git clone https://github.com/ednial0zavlare/MixKABRN.git
+cd MixKABRN
+pip install -r requirements.txt
+
+
 ## Usage ##
+
+### NON working example: ###
+
+python train.py --dataset M2D2 --model mixkabrn
+
 
 ## Contributing ##
 
-## Licenses ##
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 
+## Licenses
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## References: ##
 
@@ -90,7 +132,9 @@ The project structure is roughly as follows, and I will try to comment anything 
 - syncdoth/retnet
 - kyegomez/python-packages-template
 
-## More References: ##
+## More References:
+
+```bibtex
 
 @article{dai2024deepseekmoe,
   author={Damai Dai and Chengqi Deng and Chenggang Zhao and R. X. Xu and Huazuo Gao and Deli Chen and Jiashi Li and Wangding Zeng and Xingkai Yu and Y. Wu and Zhenda Xie and Y. K. Li and Panpan Huang and Fuli Luo and Chong Ruan and Zhifang Sui and Wenfeng Liang},
@@ -138,6 +182,15 @@ Eprint = {arXiv:2310.11453},
       author={Machel Reid and Victor Zhong and Suchin Gururangan and Luke Zettlemoyer},
       year={2022},
       eprint={2210.07370},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{hu2021lora,
+      title={LoRA: Low-Rank Adaptation of Large Language Models}, 
+      author={Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen},
+      year={2021},
+      eprint={2106.09685},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
