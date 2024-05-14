@@ -31,11 +31,11 @@
 
 ## Description ##
 
-This is a repo for the MixKABRN Neural Network (Mixture of Kolmogorov-Arnold Bit Retentive Networks), and first adapt it for training on text, and later adjust for other modalities.
+This is the repo for the MixKABRN Neural Network (Mixture of Kolmogorov-Arnold Bit Retentive Networks), and an attempt at first adapting it as an architecture training on text, and later adjust it for other modalities.
 
-Please be patient if you do not like the quality, I'll try to incorporate feedback and will be accepting suggestions, collaborations and I will try to engage in conversation.
+Please be patient if you do not like the quality, I'll try to incorporate feedback and will be accepting suggestions, merge requests, collaborations and I will try to engage in conversation.
 
-Why MixKABRN?
+### Why MixKABRN? ###
 
 The general idea here is to use some of the papers and their respective strengths to propose and share a combination of them.
 
