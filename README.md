@@ -131,11 +131,12 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## References: ##
 
-- kindxiaoming/pykan
-- kyegomez/bitnet
-- deepseek-ai/deepseek-moe
-- syncdoth/retnet
-- kyegomez/python-packages-template
+- [kindxiaoming/pykan](https://github.com/kindxiaoming/pykan) - Repository for PyKan project.
+- [kyegomez/bitnet](https://github.com/kyegomez/bitnet) - Repository for BitNet project.
+- [deepseek-ai/deepseek-moe](https://github.com/deepseek-ai/deepseek-moe) - Repository for DeepSeek MoE project.
+- [syncdoth/retnet](https://github.com/syncdoth/retnet) - Repository for RetNet project.
+- [kyegomez/python-packages-template](https://github.com/kyegomez/python-packages-template) - Template for creating Python packages.
+
 
 ## More References:
 
