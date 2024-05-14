@@ -77,7 +77,7 @@ The project structure is roughly as follows, and I will try to comment anything 
 
 ### BitNets ###
 
-- BitNets take the concept of decimal accuracy and change it for only 3 options: -1, 0, and 1. By doing this, the footprint of a lot of things goes down.
+- BitNets take the concept of decimal accuracy and changed it for only 3 options: -1, 0, and 1. By doing this, the footprint of a lot of things goes down.
 
 - Instead of performing quantization, BitNets train from the ground up with these considerations in mind, and they showed that they can scale similarly to non-Bit Transformers, which shows that there could be promising results by using these enhancements. I believe we would use the BitLinear stuff from here.
 
