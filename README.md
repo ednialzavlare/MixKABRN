@@ -23,7 +23,11 @@
 
 ## To Do ##
 
-- Mostly everything and fix what doesn't work (still very fresh)
+- Mostly everything and fix what doesn't work (still very fresh).
+- Remove placeholders
+- Tests
+- Open pretrained models and weights will be available, but a training pipeline needs to be set up.
+(I'm trying to set up a local server for training and inference, later on this).
 
 ## Description ##
 
