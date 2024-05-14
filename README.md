@@ -23,11 +23,11 @@
 
 ## To Do ##
 
-- Mostly everything
+- Mostly everything and fix what doesn't work
 
 ## Description ##
 
-This is a draft for making the MixKABRN Neural Network, and first adapt it for training on text, and later adjust for other modalities.
+This is a repo for the MixKABRN Neural Network (Mixture of Kolmogorov-Arnold Bit Retentive Networks), and first adapt it for training on text, and later adjust for other modalities.
 
 Please be patient if you do not like the quality, I'll try to incorporate feedback and will be accepting suggestions, collaborations and I will try to engage in conversation.
 
