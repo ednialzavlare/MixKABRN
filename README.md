@@ -10,13 +10,13 @@ The papers are:
 - Retentive Networks
 - Mixture of Experts
 
-References:
+##References:
 
-kindxiaoming/pykan
-kyegomez/bitnet
-deepseek-ai/deepseek-moe
-syncdoth/retnet
-kyegomez/python-packages-template
+- kindxiaoming/pykan
+- kyegomez/bitnet
+- deepseek-ai/deepseek-moe
+- syncdoth/retnet
+- kyegomez/python-packages-template
 
 
 @article{dai2024deepseekmoe,
@@ -50,3 +50,5 @@ Title = {BitNet: Scaling 1-bit Transformers for Large Language Models},
 Year = {2023},
 Eprint = {arXiv:2310.11453},
 }
+
+##
