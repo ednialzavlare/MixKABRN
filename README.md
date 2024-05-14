@@ -35,6 +35,8 @@ The project structure is roughly as follows, and I will try to comment anything 
 - OpenQA
 - Any suggestion, but trying to follow Phi or Phi-2 or similar, perhaps introduce more ideas.
 
+- This might not be worth it but, translating the datasets or extrapolating translated datasets could help with reinforcing ideas already seen, but encoded in different ways to take advantage of the relations from the KAN parts.
+
 ### Mixture of Experts ###
 
 - Utilizing this technique we can enhance the model's capacity, without accumulating more memory by only using a fraction of the total parameters when performing inference, yet train with all (and maybe some implementation of LoRA for finetuning on the fly?). 
