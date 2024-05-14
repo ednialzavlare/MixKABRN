@@ -146,6 +146,13 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ```bibtex
 
+@article{hendrycksmath2021,
+  title={Measuring Mathematical Problem Solving With the MATH Dataset},
+  author={Dan Hendrycks and Collin Burns and Saurav Kadavath and Akul Arora and Steven Basart and Eric Tang and Dawn Song and Jacob Steinhardt},
+  journal={NeurIPS},
+  year={2021}
+}
+
 @article{dai2024deepseekmoe,
   author={Damai Dai and Chengqi Deng and Chenggang Zhao and R. X. Xu and Huazuo Gao and Deli Chen and Jiashi Li and Wangding Zeng and Xingkai Yu and Y. Wu and Zhenda Xie and Y. K. Li and Panpan Huang and Fuli Luo and Chong Ruan and Zhifang Sui and Wenfeng Liang},
   title={DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models}, 
@@ -178,6 +185,8 @@ Year = {2023},
 Eprint = {arXiv:2310.11453},
 }
 
+
+
 @misc{reid2022m2d2,
       title={M2D2: A Massively Multi-domain Language Modeling Dataset}, 
       author={Machel Reid and Victor Zhong and Suchin Gururangan and Luke Zettlemoyer},
@@ -187,11 +196,20 @@ Eprint = {arXiv:2310.11453},
       primaryClass={cs.CL}
 }
 
-@misc{reid2022m2d2,
-      title={M2D2: A Massively Multi-domain Language Modeling Dataset}, 
-      author={Machel Reid and Victor Zhong and Suchin Gururangan and Luke Zettlemoyer},
-      year={2022},
-      eprint={2210.07370},
+@misc{fan2023rmt,
+      title={RMT: Retentive Networks Meet Vision Transformers}, 
+      author={Qihang Fan and Huaibo Huang and Mingrui Chen and Hongmin Liu and Ran He},
+      year={2023},
+      eprint={2309.11523},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@misc{abdin2024phi3,
+      title={Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone}, 
+      author={Marah Abdin and Sam Ade Jacobs and Ammar Ahmad Awan and Jyoti Aneja and Ahmed Awadallah and Hany Awadalla and Nguyen Bach and Amit Bahree and Arash Bakhtiari and Harkirat Behl and Alon Benhaim and Misha Bilenko and Johan Bjorck and Sébastien Bubeck and Martin Cai and Caio César Teodoro Mendes and Weizhu Chen and Vishrav Chaudhary and Parul Chopra and Allie Del Giorno and Gustavo de Rosa and Matthew Dixon and Ronen Eldan and Dan Iter and Amit Garg and Abhishek Goswami and Suriya Gunasekar and Emman Haider and Junheng Hao and Russell J. Hewett and Jamie Huynh and Mojan Javaheripi and Xin Jin and Piero Kauffmann and Nikos Karampatziakis and Dongwoo Kim and Mahoud Khademi and Lev Kurilenko and James R. Lee and Yin Tat Lee and Yuanzhi Li and Chen Liang and Weishung Liu and Eric Lin and Zeqi Lin and Piyush Madan and Arindam Mitra and Hardik Modi and Anh Nguyen and Brandon Norick and Barun Patra and Daniel Perez-Becker and Thomas Portet and Reid Pryzant and Heyang Qin and Marko Radmilac and Corby Rosset and Sambudha Roy and Olatunji Ruwase and Olli Saarikivi and Amin Saied and Adil Salim and Michael Santacroce and Shital Shah and Ning Shang and Hiteshi Sharma and Xia Song and Masahiro Tanaka and Xin Wang and Rachel Ward and Guanhua Wang and Philipp Witte and Michael Wyatt and Can Xu and Jiahang Xu and Sonali Yadav and Fan Yang and Ziyi Yang and Donghan Yu and Chengruidong Zhang and Cyril Zhang and Jianwen Zhang and Li Lyna Zhang and Yi Zhang and Yue Zhang and Yunan Zhang and Xiren Zhou},
+      year={2024},
+      eprint={2404.14219},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
