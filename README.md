@@ -22,27 +22,12 @@ The papers are:
 
 In an attempt at making a local, but highly functional and adaptable model that even non AI-specific devices could handle. I would like to do this to be able to reuse old hardware and allow people without access to the internet to enjoy some of the benefits of LLMs, perhaps even train them locally to translate and share information, without depending on the internet nor very complex infrastructure.
 
-The project structure is or should be as follows, and I will try to comment anything I can to improve clarity:
+The project structure is roughly as follows, and I will try to comment anything I can to improve clarity, or try suggestions:
 
-my_mixkabrn_model/
-│
-├── my_mixkabrn_model/
-│   ├── __init__.py
-│   ├── mixkabrn.py  # Core implementation of the MixKABRN model (with MoE, as a base)
-│   ├── bitnet_components.py  # Adapted components from BitNet
-│   ├── retnet_components.py  # Adapted components from RetNet
-│   └── utils.py  # Utility functions for model training and manipulation
-│
-├── examples/
-│   └── train_text_dataset.py  # Example script for training on a text dataset (proposal of datasets)
-│
-├── tests/
-│   └── test_mixkabrn.py  # Tests for your MoKAB model
-│
-├── setup.py  # Setup script for the package
-└── README.md
+![image](https://github.com/ednial0zavlare/MixKABRN/assets/125082787/ff17a47b-6b38-46ad-91b9-f9405df6c106)
 
-Proposed datasets:
+
+### Proposed datasets: ###
 - M2D2
 - AMPS
 - MATH
