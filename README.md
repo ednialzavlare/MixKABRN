@@ -89,27 +89,29 @@ The project structure is roughly as follows, and I will try to comment anything 
 
 ### Why not (insert something)? ###
 
-- This has just been an idea
-
-
+- This has just been an idea, and if you have some that would help that's cool, but maybe we just settle with something and build up on it? Further discussion is open, maybe this is a Wild Goose chase and with your idea it can change course to something completable?
 
 ## Installation ##
 
 ### NON working example: ###
 
+```
 git clone https://github.com/ednial0zavlare/MixKABRN.git
 cd MixKABRN
 pip install -r requirements.txt
+```
 
 
 ## Usage ##
 
 ### NON working example: ###
 
-python train.py --dataset M2D2 --model mixkabrn
+```python train.py --dataset M2D2 --model mixkabrn```
 
 
 ## Contributing ##
+
+I believe this could help, although suggestions are open :)
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
